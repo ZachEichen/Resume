@@ -1,0 +1,269 @@
+%-------------------------
+% Resume in Latex
+% Author : Zachary Eichenberger, adapted from  Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{.75in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Zachary Eichenberger} \\ \vspace{1pt}
+    \small (914) 486 - 4953 $|$ \href{mailto:zeichen@umich.edu}{\underline{zeichen@umich.edu}} $|$ 
+    \href{https://linkedin.com/in/zachry-eichenberger}{\underline{linkedin.com/in/zachary-eichenberger/}} $|$
+    \href{https://github.com/zacheichen}{\underline{github.com/ZachEichen}}
+\end{center}
+
+\vspace{.13in}
+Motivated student studying computer science, with a strong ML background looking for a position in computer science. Interests include natural language processing, and machine learning. 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {University of Michigan, Ann Arbor Accelerated }{Expected Graduation: May 2024}
+      {Master of Science in Computer Science }{   }
+      
+    \resumeItemListStart
+        \resumeItem{Accelerated masters program}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Michigan, Ann Arbor}{Expected Graduation: May 2023}
+      {Bachelor of Science in Computer Science, Minor in Mathematics}{GPA: 3.89}
+     
+    \resumeItemListStart
+        \resumeItem{Relevant Coursework: Natural Language Processing, Differential Equations, Introduction to Machine Learning, Multivariable Calculus, Discrete Mathematics, Linear Algebra, Software Engineering, Algorithm Design}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+    {Undergraduate Researcher}
+     {Sept. 2022 -- Present}
+     {University of Michigan, LAUNCH lab}
+     {Ann Arbor, MI}
+
+    \resumeItemListStart
+    \resumeItem{Investigated novel decoding algorithms to boost large language model coherence and fluency}
+    \resumeItemListEnd
+
+
+    \resumeSubheading
+    {Intern \& Intern Cohort Leader}
+     {May. 2022 -- Aug. 2022}
+     {IBM Research, Scalable Knowledge Intelligence Team}
+     {San Jose, CA}
+
+    \resumeItemListStart
+    \resumeItem{Created novel algorithms leveraging novel Deep Learning and NLP techniques to leverage a fusion of textual and positional information in PDF table identification and extraction.}
+    \resumeItem{Implemented those algorithms within Flask server, reducing error rate within IBM Table Extraction by 40\%.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {Undergraduate Researcher}
+     {Jan. 2022 -- Present}
+     {Future of Programming Lab}
+     {Ann Arbor, MI }
+
+    \resumeItemListStart
+        % \resumeItem{Created Reinforcement Learning agent for automatic code development by operating directly on abstract syntax tree}
+        \resumeItem{Investigated the use of ML based automatic code editing agent operating on abstract syntax trees}
+        \resumeItem{Developed Graph Neural Net models and architecture in Python and OCaml for team creating end-to-end Reinforcement Learning system.}
+        % \resumeItem{Developed infrastructure to create, parse, and evaluate novel programming language based on Hazel}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Intern \& Intern Cohort Leader}
+     {May. 2021 -- Aug. 2021}
+     {IBM Research}
+     {Ann Arbor, MI}
+
+    \resumeItemListStart
+        \resumeItem{Created database cleaning module for Open-source project, Text Extensions for Pandas. Made 75+ commits, and became \#4 contributor on project}
+        \resumeItem{Created state of the art dataset error detection algorithms using novel clustering approach to detect systematic errors present in dataset labels, resulting in significant boost over previous methods. Paper in preparation}
+        \resumeItem{Designed and ran month-long experiment evaluating noise-robust learning and dataset cleaning algorithms using Pytorch and Scikit-learn; trained and evaluated 100+ models on NLP datasets}
+        
+    \resumeItemListEnd
+
+\resumeSubheading{Research Assistant}
+        {January 2021 – June 2021}
+        {Smart and Sustainable Automation Lab}
+        {Ann Arbor, MI}
+        
+    \resumeItemListStart
+        \resumeItem{Developed low-cost 3d printer fault detection sensor. Co-inventor on pending patent, and Co-author on paper.}
+        % \resumeItem{Created novel probing methodologies to better utilize mechanical probe to detect errors in FDM 3d printers}
+        % \resumeItem{Co-inventor on pending patent, andCo-author on paper, in The International Journal of Advanced Manufacturing Technology, Feb. 2022}
+    \resumeItemListEnd
+
+% \resumeSubheading{University of Michigan Solar Car Team}
+%         {October 2019 – April 2021}
+%         {Structures Division Lead}
+%         {Ann Arbor, Mi}
+%     \resumeItemListStart
+%         \resumeItem{Organized a of 5 members to  engineer optimized metal and carbon-composite structures, in short time frames, while balancing cost and performance.}
+%     \resumeItemListEnd
+    
+\resumeSubheading
+    {Intern}
+     {May. 2020 -- Aug. 2020}
+     {IBM Research}
+     {Ann Arbor, MI }
+
+    \resumeItemListStart
+        \resumeItem{Independently developed portion of Open-source library (in Python) to ingest data from scanned tables}
+        \resumeItem{Automated regression testing using Travis CI and documentation using Sphinx Auto documentation}
+        \resumeItem{Resulted in Co-authorship of “Identifying Incorrect Labels in the CoNLL-2003 Corpus” Proceedings of the CoNLL Conference, Nov. 2020. }
+    \resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Worlde Assistant} $|$ \emph{}}{October 2021 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{}
+%             \resumeItem{}
+%         \resumeItemListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{:    Python, C++, OCaml, Golang, Java, JavaScript} \\
+     \textbf{Skills}{: Unix Systems, Git — Centralized and Integration manager workflows, Sphinx Auto-documentation, Travis CI, JUnit, Pytest, PyTorch, Scikit-learn } \\
+    % \textbf{Languages}{: Bilingual proficiency in French} \\
+
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
