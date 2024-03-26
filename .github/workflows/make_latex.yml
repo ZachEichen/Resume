@@ -12,7 +12,7 @@ jobs:
           root_file: main.tex
 
       - name: commit doc
-        run: 
+        run: |
           git config --local user.email "test@github.com"
           git config --local user.name  "GitHub Action [bot]"
           git add -f "*.pdf"
